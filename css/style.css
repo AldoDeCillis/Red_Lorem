@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&family=Rajdhani:wght@300;400;600&display=swap');
+body{
+    background:rgb(236, 236, 236);
+}
+.main_color{
+    color: darkred;
+}
+.sec_color{
+    color:#888888;
+}
+.trd_color{
+    color: #C67F7F;
+}
+.frt_color{
+    color: rgb(236, 236, 236);
+}
+.main_txt{
+    font-family: 'Nova Square', cursive;
+}
+.sec_txt{
+    font-family: 'Rajdhani', sans-serif;
+}
+.logo_col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header_bg{
+    background:linear-gradient(rgba(236, 236, 236, 1),rgba(236,236,236,0.4)), url(../media/switzerland-862870_1920.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img_custom{
+    background-attachment: fixed;
+}
+.main_title{
+    letter-spacing: 60px;
+}
+.custom_quotes{
+    quotes:"“" "„";
+}
+.custom_quotes::before{
+    content: open-quote;
+    color: darkred;
+    font-size: 4vmax;
+    position: absolute;
+    top: -35px;
+    left: -32px;
+}
+.custom_quotes::after{
+    content: close-quote;
+    color: darkred;
+    font-size: 4vmax;
+    position: absolute;
+    bottom: -30px;
+    right: 260px;
+}
+.linea{
+    height: 3px;
+    background: darkred;
+    width: 60%;
+    position: relative;
+}
+.linea::after{
+    content:"";
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background: #ececec;
+    position: absolute;
+    top: calc(50% - 7.5px);
+    left: calc(50% - 7.5px);
+    border: 1px solid darkred;
+}
+.custom_btn{
+    background-color: darkred;
+    border-radius: 0%;
+}
+.cta_container{
+    height: 60vh;
+    background: url(../media/trees2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.timeline_bg{
+    background-color: white;
+}
+.timeline_marker{
+    width: 3px;
+    background: darkred;
+    height: 100%;
+    position: relative;
+}
+.timeline_marker::after{
+    content:"";
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background: #ececec;
+    position: absolute;
+    top: calc(0% - 7.5px);
+    left: calc(50% - 7.5px);
+    border: 1px solid darkred;
+}
+.marker_col{
+    width: 1%;
+}
+.timeline_container{
+    background: url(../media/single.png);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: bottom right;
+
+}
+
+.team_img{
+
+}
+.border_img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: transparent;
+    top: calc(50% - 90px);
+    left: calc(50% - 90px);
+    border: 3.5px solid darkred;
+}
+
+.benefit_border{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: transparent;
+    top: calc(50% - 100px);
+    left: calc(50% - 100px);
+    border: 3.5px solid darkred;
+}
+/* .timeline_img::after{
+    content:"";
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    background: transparent;
+    position: absolute;
+    top: calc(50% - 90px);
+    left: calc(50% - 90px);
+    border: 3px solid darkred;
+} */
+.redTrees_container{
+    height: 60vh;
+    background: url(../media/other.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+.footer_container{
+    background-color: darkred;
+}
